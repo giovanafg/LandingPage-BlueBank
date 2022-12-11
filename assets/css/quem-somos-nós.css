@@ -1,0 +1,10 @@
+.quem-somos-nós{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: linear-gradient(121.11deg, #3FBDF1 16.53%, rgba(63, 189, 241, 0) 68.82%), #FFFFFF;
+    margin-top: 164px;
+}
+
+
+

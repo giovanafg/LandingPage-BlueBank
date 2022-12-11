@@ -1,0 +1,23 @@
+.quem-somos__conteudo{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+
+@media screen and (min-width: 0) {
+    .quem-somos__conteudo{
+        flex-direction: column;
+        gap: 6rem;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .quem-somos__conteudo{
+        flex-direction: row-reverse;
+        align-items: center;
+        gap: 6rem;
+        
+    }
+}
