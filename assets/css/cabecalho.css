@@ -2,5 +2,27 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 24px;
+    padding-right: 5rem;
+    padding-left: 5rem;
+}
+
+@media screen and (min-width: 0){
+    .cabecalho{
+        justify-content: center;
+        padding: 0 1rem;
+    }
+    .logo__bluebank{
+        display: none;
+    }
+    
+}
+
+@media screen and (min-width: 1200px) {
+    .cabecalho{
+        padding: 0 5rem;
+        justify-content: space-between;
+    }
+    .logo__bluebank{
+        display: block;
+    }
 }
