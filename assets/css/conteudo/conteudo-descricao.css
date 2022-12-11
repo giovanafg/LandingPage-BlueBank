@@ -1,0 +1,29 @@
+.conteudo__descricao{
+    width: 454px;
+    height: 300px;
+}
+
+.conteudo__subtitulo{
+    font-family: 'Poppins', sans-serif;
+    color: #07141A;
+    font-weight: 600;
+}
+
+.conteudo__paragrafo{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+@media screen and (min-width: 0) {
+    .conteudo__subtitulo{
+      font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .conteudo__subtitulo{
+      font-size: 2rem;
+
+    }
+}
