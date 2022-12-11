@@ -1,0 +1,19 @@
+.bluebank{
+    display: flex;
+}
+
+@media screen and (min-width: 0) {
+    .bluebank{
+        flex-direction: column;
+        gap: 6rem;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .bluebank{
+        flex-direction: row-reverse;
+        align-items: center;
+        gap: 6rem;
+    }
+}
