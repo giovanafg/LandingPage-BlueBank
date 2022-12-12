@@ -1,0 +1,26 @@
+.titulo-cards{
+    display: flex;
+    justify-content: center;
+    padding-top: 132px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.titulo{
+    color: #3FBDF1;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+@media screen and (min-width: 0) {
+    .titulo{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .titulo{
+        font-size: 40px;
+
+    }
+}
