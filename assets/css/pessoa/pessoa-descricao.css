@@ -1,0 +1,6 @@
+.pessoa__descricao{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding-left: 16px;
+}

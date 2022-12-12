@@ -1,0 +1,7 @@
+.pessoas{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 80px;
+    align-items: center;
+}

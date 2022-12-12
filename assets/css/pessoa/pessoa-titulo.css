@@ -1,0 +1,9 @@
+.pessoa__titulo{
+    color: #3FBDF1;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    margin: 0;
+    padding-bottom: 32px;
+    align-self: center;
+}
