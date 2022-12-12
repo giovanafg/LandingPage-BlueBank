@@ -1,6 +1,5 @@
 .quem-somos__descricao{
     display: flex;
-    width: 895px;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
@@ -20,9 +19,7 @@
 .quem-somos__texto{
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
-    font-size: 1.2rem;
     color:#0D242E;
-    margin: 0;
 }
 
 .quem-somos__botao{
@@ -38,4 +35,33 @@
     height: 50px;
     padding: 10px 54px;
 
+}
+
+.quem-somos__botao:hover{
+    background: #52c2f1;
+    cursor: pointer;
+}
+
+
+@media screen and (min-width: 0) {
+    .quem-somos__texto{
+        font-size: 1.1rem;
+    }
+
+    .quem-somos__descricao{
+        width: 550px;
+
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .quem-somos__texto{
+        font-size: 1.2rem;
+
+    }
+
+    .quem-somos__descricao{
+        width: 895px;
+
+    }
 }
