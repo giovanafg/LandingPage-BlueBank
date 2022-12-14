@@ -1,0 +1,32 @@
+.rodape__contato--card{
+    display: flex;
+    flex-direction: column;
+ 
+    gap: 6px;
+}
+
+.rodape__subtitulo{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    width: 57px;
+    color: #2E2E2E;
+
+}
+
+.rodape__descricao{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.rodape__link{
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    color: #2E2E2E;
+}
+

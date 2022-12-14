@@ -1,0 +1,13 @@
+.rodape__final{
+    display: flex;
+}
+
+.rodape__titulo--final{
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+    margin-top: 80px;
+}

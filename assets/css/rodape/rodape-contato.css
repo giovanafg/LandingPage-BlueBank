@@ -1,0 +1,5 @@
+.rodape__contato{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
