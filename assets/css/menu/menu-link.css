@@ -2,3 +2,7 @@
     text-decoration: none;
     color: black;
 }
+
+.menu__link:hover{
+    color: #52c2f1;
+}

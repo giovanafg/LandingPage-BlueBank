@@ -1,5 +1,17 @@
 .rodape__contato{
     display: flex;
-    flex-direction: row;
     gap: 60px;
+}
+
+
+@media screen and (min-width: 0) {
+    .rodape__contato{
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .rodape__contato{
+        flex-direction: row;
+    }
 }

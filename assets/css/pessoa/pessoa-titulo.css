@@ -2,8 +2,20 @@
     color: #3FBDF1;
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
-    font-size: 40px;
     margin: 0;
     padding-bottom: 32px;
     align-self: center;
+}
+
+@media screen and (min-width: 0) {
+    .pessoa__titulo{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .pessoa__titulo{
+        font-size: 40px;
+
+    }
 }

@@ -1,8 +1,23 @@
 .pessoas{
     display: flex;
-    flex-direction: row-reverse;
+    
+}
+
+@media screen and (min-width: 0) {
+    .pessoas{
+        flex-direction: column;
+        align-items: center;
+        gap: 6rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .pessoas{
+        flex-direction: row-reverse;
     justify-content: center;
     gap: 80px;
     align-items: center;
     margin-bottom: 162px;
+
+    }
 }

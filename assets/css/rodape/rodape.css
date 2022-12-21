@@ -3,6 +3,17 @@
     flex-direction: column;
     background: #3FBDF1;
     justify-content: space-around;
-    padding: 80px 180px;
     gap: 32px;
+}
+
+@media screen and (min-width: 0) {
+    .rodape{
+        padding: 40px 80px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .rodape{
+        padding: 80px 180px;
+    }
 }
